@@ -21,9 +21,18 @@
 
 
 <body>
+<form class="form-inline" method="post">
+  <div class="form-group">
+    <label for="exampleInputName2">Ingrese URL de la carpeta a leer</label>
+    <input type="text" class="form-control" id="exampleInputName2" name="homepage" placeholder="Jane Doe">
+  </div>
 
-
+  <button type="submit" name="enviar" class="btn btn-default">Leer Carpeta</button>
+</form>
 <?php
+    
+  
+        
         error_reporting(0);
         $prueba=array();
         $programa_anio=array();
@@ -37,7 +46,7 @@
         $arrayAlumno=array();
         $arrayLleno=array();
         $arraycapertas=array();
-    $dir="UPG.CARPETAS.ESTUDIANTES1";
+    $dir=$_POST["homepage"];
     
      $explorar= scandir($dir);
      $array1=array();  
