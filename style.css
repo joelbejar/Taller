@@ -1,0 +1,46 @@
+body{
+    background: #EEEEEE !important;
+    height: 100% !important;
+}
+.cont{
+    margin-top: 30px;
+}
+.valor_prog:nth-of-type(1){
+    margin-left: -10px !important;
+}
+.valor_prog{
+    margin-left: 20px !important;
+}
+.jumbotron{
+    padding: 0 !important;
+}
+.directorio_alumno{
+    display: flex;
+justify-content: center !important;
+}
+.directorio_alumno button{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items:  center !important;
+    text-align: center;
+    width: 500px;
+    margin: auto !important;
+    margin-top: 20px !important;
+}
+.directorio_programa button,.directorio_anio button{
+    margin-left: 10px;
+}
+
+.directorio_programa button:nth-of-type(1),.directorio_anio button:nth-of-type(1){
+    margin-left: 0px;
+}
+.directorio_anio,.directorio_alumno{
+    display: none;
+}
+.directorio_anio button,.directorio_alumno button{
+    display: none;
+}
+.aparacer{
+    display: block;
+}
