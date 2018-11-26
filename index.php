@@ -71,7 +71,7 @@
                 for($r=0;$r<count($explorar3);$r++){  
                     if( $explorar3[$r] == '.' || $explorar3[$r] == '..')
                             continue;
-                    echo $explorar3[$r];
+                 
                     $prueba3=array($explorar[$i]=>$explorar3[$r]);
                    
                      array_push($arraycapertas,$prueba3);
@@ -85,8 +85,7 @@
      }
     
    
-    
-    echo "<br>";
+ 
         foreach ($arraycapertas as $key => $value) {
             foreach($value as $k=>$v){ 
                     $contadorprogramalleno[$k]+=1;
@@ -104,7 +103,7 @@
             }    
         } 
     foreach($contadorprogramalleno as $key => $value){
-        echo $value;
+        
         if($value!=NULL){
             
         foreach($contador as $k => $v){
