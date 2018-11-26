@@ -37,7 +37,7 @@
         $arrayAlumno=array();
         $arrayLleno=array();
         $arraycapertas=array();
-    $dir="UPG.CARPETAS.ESTUDIANTES";
+    $dir="UPG.CARPETAS.ESTUDIANTES1";
     
      $explorar= scandir($dir);
      $array1=array();  
